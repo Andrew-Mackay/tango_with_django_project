@@ -19,4 +19,5 @@ class Page(models.Model):
 	views = models.IntegerField(default=0)
 	
 	def __unicode__(self): # Note: for python 2, use __unicode__ instead of  __str__
-		return self.name
+		return self.title
+	
