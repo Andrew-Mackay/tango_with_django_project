@@ -18,7 +18,7 @@ class Category(models.Model):
 		verbose_name_plural = 'Categories'
 	
 	def __str__(self):
-		return self.title
+		return self.name
 		
 	def __unicode__(self): # Note: for python 2, use __unicode__ instead of  __str__
 		return self.name
